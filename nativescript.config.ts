@@ -1,11 +1,15 @@
-import { NativeScriptConfig } from '@nativescript/core';
+import { type NativeScriptConfig } from '@nativescript/core'
 
 export default {
-  id: 'org.nativescript.djotlotmobile',
-  appPath: 'app',
-  appResourcesPath: 'App_Resources',
-  android: {
-    v8Flags: '--expose_gc',
-    markingMode: 'none'
-  }
-} as NativeScriptConfig;
+	id: 'com.andrewchou.NativeScriptBasicTemplate',
+	appPath: 'src',
+	appResourcesPath: 'App_Resources',
+	android: {
+		v8Flags: '--expose_gc',
+		markingMode: 'none',
+	},
+	cli: {
+		packageManager: 'pnpm',
+		pathsToClean: ['node_modules', 'platforms', 'hooks'],
+	},
+} satisfies NativeScriptConfig

@@ -1,0 +1,7 @@
+{
+	// https://github.com/prettier/prettier-vscode/issues/3235
+	"prettier.configPath": "./prettier.config.mjs",
+	"[xml]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	}
+}
