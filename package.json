@@ -29,7 +29,7 @@
 		"@nativescript/types": "8.8.0",
 		"@nativescript/webpack": "5.0.22",
 		"@prettier/plugin-xml": "3.4.1",
-		"@types/node": "22.10.10",
+		"@types/node": "22.13.0",
 		"eslint": "9.19.0",
 		"globals": "15.14.0",
 		"husky": "9.1.7",

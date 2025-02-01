@@ -40,8 +40,8 @@ importers:
         specifier: 3.4.1
         version: 3.4.1(prettier@3.4.2)
       '@types/node':
-        specifier: 22.10.10
-        version: 22.10.10
+        specifier: 22.13.0
+        version: 22.13.0
       eslint:
         specifier: 9.19.0
         version: 9.19.0(jiti@1.21.7)
@@ -56,7 +56,7 @@ importers:
         version: 0.8.0
       nativescript:
         specifier: 8.8.3
-        version: 8.8.3(@types/node@22.10.10)(encoding@0.1.13)
+        version: 8.8.3(@types/node@22.13.0)(encoding@0.1.13)
       prettier:
         specifier: 3.4.2
         version: 3.4.2
@@ -833,8 +833,8 @@ packages:
   '@types/node@16.9.1':
     resolution: {integrity: sha512-QpLcX9ZSsq3YYUUnD3nFDY8H7wctAhQj/TFKL8Ya8v5fMm3CFXxo8zStsLAl780ltoYoo1WvKUVGBQK+1ifr7g==}
 
-  '@types/node@22.10.10':
-    resolution: {integrity: sha512-X47y/mPNzxviAGY5TcYPtYL8JsY3kAq2n8fMmKoRCxq/c4v4pyGNCzM2R6+M5/umG4ZfHuT+sgqDYqWc9rJ6ww==}
+  '@types/node@22.13.0':
+    resolution: {integrity: sha512-ClIbNe36lawluuvq3+YYhnIN2CELi+6q8NpnM7PYp4hBn/TatfboPgVSm2rwKRfnV2M+Ty9GWDFI64KEe+kysA==}
 
   '@types/normalize-package-data@2.4.4':
     resolution: {integrity: sha512-37i+OaWTh9qeK4LSHPsyRC7NahnGotNuZvjLSgcPzblpHB3rrCJxAOgI5gCdKm7coonsaX1Of0ILiTcnZjbfxA==}
@@ -5506,7 +5506,7 @@ snapshots:
 
   '@rigor789/resolve-package-path@1.0.7': {}
 
-  '@rigor789/trapezedev-project@7.1.2(@types/node@22.10.10)(encoding@0.1.13)(typescript@5.0.3)':
+  '@rigor789/trapezedev-project@7.1.2(@types/node@22.13.0)(encoding@0.1.13)(typescript@5.0.3)':
     dependencies:
       '@ionic/utils-fs': 3.1.7
       '@ionic/utils-subprocess': 2.1.14
@@ -5530,7 +5530,7 @@ snapshots:
       replace: 1.2.2
       tempy: 1.0.1
       tmp: 0.2.3
-      ts-node: 10.9.2(@types/node@22.10.10)(typescript@5.0.3)
+      ts-node: 10.9.2(@types/node@22.13.0)(typescript@5.0.3)
       xcode: 3.0.1
       xml-js: 1.6.11
       xpath: 0.0.32
@@ -5649,7 +5649,7 @@ snapshots:
 
   '@types/fs-extra@8.1.5':
     dependencies:
-      '@types/node': 22.10.10
+      '@types/node': 22.13.0
 
   '@types/json-schema@7.0.15': {}
 
@@ -5663,7 +5663,7 @@ snapshots:
 
   '@types/node@16.9.1': {}
 
-  '@types/node@22.10.10':
+  '@types/node@22.13.0':
     dependencies:
       undici-types: 6.20.0
 
@@ -7388,7 +7388,7 @@ snapshots:
 
   jest-worker@27.5.1:
     dependencies:
-      '@types/node': 22.10.10
+      '@types/node': 22.13.0
       merge-stream: 2.0.0
       supports-color: 8.1.1
 
@@ -7987,13 +7987,13 @@ snapshots:
       simple-plist: 1.3.1
       uuid: 9.0.1
 
-  nativescript@8.8.3(@types/node@22.10.10)(encoding@0.1.13):
+  nativescript@8.8.3(@types/node@22.13.0)(encoding@0.1.13):
     dependencies:
       '@nativescript/doctor': 2.0.15
       '@nativescript/schematics-executor': 0.0.2
       '@npmcli/arborist': 7.5.4
       '@rigor789/resolve-package-path': 1.0.7
-      '@rigor789/trapezedev-project': 7.1.2(@types/node@22.10.10)(encoding@0.1.13)(typescript@5.0.3)
+      '@rigor789/trapezedev-project': 7.1.2(@types/node@22.13.0)(encoding@0.1.13)(typescript@5.0.3)
       ansi-colors: 4.1.3
       archiver: 5.3.2
       axios: 1.6.5
@@ -9212,14 +9212,14 @@ snapshots:
       '@ts-morph/common': 0.18.1
       code-block-writer: 11.0.3
 
-  ts-node@10.9.2(@types/node@22.10.10)(typescript@5.0.3):
+  ts-node@10.9.2(@types/node@22.13.0)(typescript@5.0.3):
     dependencies:
       '@cspotcode/source-map-support': 0.8.1
       '@tsconfig/node10': 1.0.11
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
-      '@types/node': 22.10.10
+      '@types/node': 22.13.0
       acorn: 8.14.0
       acorn-walk: 8.3.4
       arg: 4.1.3
