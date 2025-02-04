@@ -3,7 +3,7 @@
 	"version": "1.0.0",
 	"private": true,
 	"main": "src/app.ts",
-	"packageManager": "pnpm@10.1.0",
+	"packageManager": "pnpm@10.2.0",
 	"scripts": {
 		"android:build": "ns build android",
 		"android:run": "ns run android",
