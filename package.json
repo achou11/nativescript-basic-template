@@ -22,7 +22,7 @@
 	},
 	"devDependencies": {
 		"@eslint/compat": "1.2.6",
-		"@eslint/js": "9.19.0",
+		"@eslint/js": "9.20.0",
 		"@ianvs/prettier-plugin-sort-imports": "4.4.1",
 		"@nativescript/android": "8.8.6",
 		"@nativescript/ios": "8.8.2",
@@ -30,7 +30,7 @@
 		"@nativescript/webpack": "5.0.22",
 		"@prettier/plugin-xml": "3.4.1",
 		"@types/node": "22.13.1",
-		"eslint": "9.19.0",
+		"eslint": "9.20.0",
 		"globals": "15.14.0",
 		"husky": "9.1.7",
 		"nano-staged": "0.8.0",
