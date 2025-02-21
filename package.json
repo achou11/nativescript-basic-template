@@ -21,7 +21,7 @@
 		"@nativescript/theme": "3.1.0"
 	},
 	"devDependencies": {
-		"@eslint/compat": "1.2.6",
+		"@eslint/compat": "1.2.7",
 		"@eslint/js": "9.20.0",
 		"@ianvs/prettier-plugin-sort-imports": "4.4.1",
 		"@nativescript/android": "8.8.6",
@@ -31,7 +31,7 @@
 		"@prettier/plugin-xml": "3.4.1",
 		"@types/node": "22.13.4",
 		"eslint": "9.20.1",
-		"globals": "15.15.0",
+		"globals": "16.0.0",
 		"husky": "9.1.7",
 		"nano-staged": "0.8.0",
 		"nativescript": "8.8.3",
