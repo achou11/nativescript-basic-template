@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@nativescript/core':
-        specifier: 8.8.6
-        version: 8.8.6
+        specifier: 8.9.0
+        version: 8.9.0
       '@nativescript/theme':
         specifier: 3.1.0
         version: 3.1.0
@@ -487,8 +487,8 @@ packages:
   '@nativescript/android@8.9.0':
     resolution: {integrity: sha512-zRiUBfHadm2x5s+C0zLj1tG9DmGRDLNwmVKzB4LHusXVY2q0mfOjKBY/xOinApwRK/KLqY4iK61rwXF59zkzBw==}
 
-  '@nativescript/core@8.8.6':
-    resolution: {integrity: sha512-pbYDkwit2qLYRAn4bUcXQY0Wq73LVnbmtKiRXIgZDGo86cjxtsPjQmvVpqluBf3GMNFm9U1+h5VfxwwQw1vGdg==}
+  '@nativescript/core@8.9.0':
+    resolution: {integrity: sha512-L5bh0InUdelUCIFnAGMKseKqmn0rw7sDwn22356DYt9wWPhNPA0nFuyTDq9LkZn/nEYGkmC3S8cwHY9PvEE9+Q==}
 
   '@nativescript/doctor@2.0.15':
     resolution: {integrity: sha512-VEkeNKVJ1EJ55ii2A6Nv9jPL+gdDvZQ+nxlDVQcv8iOy/QSBhFHGn/RDW8UpVulqFOMr6RS9lmSjmIl6cx1G7A==}
@@ -5138,7 +5138,7 @@ snapshots:
 
   '@nativescript/android@8.9.0': {}
 
-  '@nativescript/core@8.8.6':
+  '@nativescript/core@8.9.0':
     dependencies:
       '@nativescript/hook': 2.0.0
       acorn: 8.14.0
