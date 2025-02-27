@@ -10,6 +10,6 @@ export default {
 	},
 	cli: {
 		packageManager: 'pnpm',
-		pathsToClean: ['node_modules', 'platforms', 'hooks'],
+		pathsToClean: ['platforms', 'hooks'],
 	},
 } satisfies NativeScriptConfig
