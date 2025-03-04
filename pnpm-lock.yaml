@@ -25,11 +25,11 @@ importers:
         specifier: 4.4.1
         version: 4.4.1(prettier@3.5.2)
       '@nativescript/android':
-        specifier: 8.9.0
-        version: 8.9.0
+        specifier: 8.9.1
+        version: 8.9.1
       '@nativescript/ios':
-        specifier: 8.9.0
-        version: 8.9.0
+        specifier: 8.9.1
+        version: 8.9.1
       '@nativescript/types':
         specifier: 8.9.0
         version: 8.9.0
@@ -435,8 +435,8 @@ packages:
   '@kwsites/promise-deferred@1.1.1':
     resolution: {integrity: sha512-GaHYm+c0O9MjZRu0ongGBRbinu8gVAMd2UZjji6jVmqKtZluZnptXGWhz1E8j8D2HJ3f/yMxKAUC0b+57wncIw==}
 
-  '@nativescript/android@8.9.0':
-    resolution: {integrity: sha512-zRiUBfHadm2x5s+C0zLj1tG9DmGRDLNwmVKzB4LHusXVY2q0mfOjKBY/xOinApwRK/KLqY4iK61rwXF59zkzBw==}
+  '@nativescript/android@8.9.1':
+    resolution: {integrity: sha512-9xy7Vp77icneQCv0fRVwYfJhuhqFYY3/nPoB7OeG/I78WITPUm+2fNyBj0A6Uu4qJ5/rhwiNAWCaVX0IGBs0oQ==}
 
   '@nativescript/core@8.9.0':
     resolution: {integrity: sha512-L5bh0InUdelUCIFnAGMKseKqmn0rw7sDwn22356DYt9wWPhNPA0nFuyTDq9LkZn/nEYGkmC3S8cwHY9PvEE9+Q==}
@@ -447,8 +447,8 @@ packages:
   '@nativescript/hook@2.0.0':
     resolution: {integrity: sha512-v3Hj3Zpd69sQJfFpDNXonV0EjO1a2OL4l48wlo1Ycsqk4r7RY822d/irFTjt0LllRG0OcdEGgfG6wKb0YgPyHw==}
 
-  '@nativescript/ios@8.9.0':
-    resolution: {integrity: sha512-jbqEBauI1igVJGInY49W08ORgH62I28OPE0ksIrhrbM+GHAU2a0yxYwFkbALlxVITSh2eDaeRrwFjRlgWo6+0g==}
+  '@nativescript/ios@8.9.1':
+    resolution: {integrity: sha512-4oe+n79rolWPaBqZpD6KFx4ab47snzq/JCUxF4b6QWO7EMeT5+P1oiMEetwD9FNvMWiYjX9L1VC06XlSZ5G3ug==}
 
   '@nativescript/theme@3.1.0':
     resolution: {integrity: sha512-LTo0k/1HbwuFl9vTNfeOFtHuXf/BEVKROeaLZJbHX8U6DoUc+VprF46v6E9EFALOOPgxsgAJFtnEdOFDa26Ogw==}
@@ -4842,7 +4842,7 @@ snapshots:
 
   '@kwsites/promise-deferred@1.1.1': {}
 
-  '@nativescript/android@8.9.0': {}
+  '@nativescript/android@8.9.1': {}
 
   '@nativescript/core@8.9.0':
     dependencies:
@@ -4868,7 +4868,7 @@ snapshots:
       glob: 7.2.3
       mkdirp: 1.0.4
 
-  '@nativescript/ios@8.9.0': {}
+  '@nativescript/ios@8.9.1': {}
 
   '@nativescript/theme@3.1.0': {}
 
