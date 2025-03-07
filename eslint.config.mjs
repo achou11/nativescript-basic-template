@@ -1,3 +1,4 @@
+// @ts-check
 import { fileURLToPath } from 'node:url'
 import { includeIgnoreFile } from '@eslint/compat'
 import pluginJs from '@eslint/js'

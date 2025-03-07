@@ -1,3 +1,5 @@
+// @ts-check
+
 const nsWebpack = require('@nativescript/webpack')
 
 module.exports = (env) => {
