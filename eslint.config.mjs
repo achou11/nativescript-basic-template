@@ -14,7 +14,6 @@ export default tseslint.config(
 	{ languageOptions: { globals: { ...globals.node, ...globals.worker } } },
 	pluginJs.configs.recommended,
 	{
-		name: 'typescript',
 		extends: tseslint.configs.recommended,
 		rules: {
 			'@typescript-eslint/array-type': ['warn', { default: 'generic' }],
