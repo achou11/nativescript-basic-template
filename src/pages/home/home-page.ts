@@ -4,12 +4,12 @@ a code-behind file. The code-behind is a great place to place your view
 logic, and to set up your page’s data binding.
 */
 
-import { Page, type NavigatedData } from '@nativescript/core'
+import type { NavigatedData, Page } from '@nativescript/core'
 
 import { HomePageModel } from './home-page.model'
 
 export function onNavigatingTo(args: NavigatedData) {
-	const page = <Page>args.object
+	const page = args.object as Page
 
 	page.bindingContext = new HomePageModel()
 }
