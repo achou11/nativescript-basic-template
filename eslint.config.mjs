@@ -2,10 +2,11 @@
 import { fileURLToPath } from 'node:url'
 import { includeIgnoreFile } from '@eslint/compat'
 import pluginJs from '@eslint/js'
+import { defineConfig } from 'eslint/config'
 import globals from 'globals'
 import tseslint from 'typescript-eslint'
 
-export default tseslint.config(
+export default defineConfig(
 	includeIgnoreFile(fileURLToPath(new URL('.gitignore', import.meta.url))),
 	includeIgnoreFile(
 		fileURLToPath(new URL('.git/info/exclude', import.meta.url))
