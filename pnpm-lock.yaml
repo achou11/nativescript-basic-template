@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@nativescript/core':
-        specifier: 8.9.7
-        version: 8.9.7
+        specifier: 8.9.9
+        version: 8.9.9
       '@nativescript/theme':
         specifier: 3.1.0
         version: 3.1.0
@@ -25,11 +25,11 @@ importers:
         specifier: 4.7.0
         version: 4.7.0(prettier@3.6.2)
       '@nativescript/android':
-        specifier: 8.9.1
-        version: 8.9.1
-      '@nativescript/ios':
         specifier: 8.9.2
         version: 8.9.2
+      '@nativescript/ios':
+        specifier: 8.9.4
+        version: 8.9.4
       '@nativescript/types':
         specifier: 8.9.1
         version: 8.9.1
@@ -168,8 +168,8 @@ packages:
     resolution: {integrity: sha512-IchNf6dN4tHoMFIn/7OE8LWZ19Y6q/67Bmf6vnGREv8RSbBVb9LPJxEcnwrcwX6ixSvaiGoomAUvu4YSxXrVgw==}
     engines: {node: '>=12'}
 
-  '@csstools/color-helpers@5.0.2':
-    resolution: {integrity: sha512-JqWH1vsgdGcw2RR6VliXXdA0/59LttzlU8UlRT/iUUsEeWfYq8I+K0yhihEUTTHLRm1EXvpsCx3083EU15ecsA==}
+  '@csstools/color-helpers@5.1.0':
+    resolution: {integrity: sha512-S11EXWJyy0Mz5SYvRmY8nJYTFFd1LCNV+7cXyAgQtOOuzb4EsgfqDufL+9esx72/eLhsRdGZwaldu/h+E4t4BA==}
     engines: {node: '>=18'}
 
   '@csstools/css-calc@2.1.4':
@@ -179,8 +179,8 @@ packages:
       '@csstools/css-parser-algorithms': ^3.0.5
       '@csstools/css-tokenizer': ^3.0.4
 
-  '@csstools/css-color-parser@3.0.10':
-    resolution: {integrity: sha512-TiJ5Ajr6WRd1r8HSiwJvZBiJOqtH86aHpUjq5aEKWHiII2Qfjqd/HCWKPOW8EP4vcspXbHnXrwIDlu5savQipg==}
+  '@csstools/css-color-parser@3.1.0':
+    resolution: {integrity: sha512-nbtKwh3a6xNVIp/VRuXV64yTKnb1IjTAEEh3irzS+HkKjAOYLTGNb9pmVNntZ8iVBHcWDA2Dof0QtPgFI1BaTA==}
     engines: {node: '>=18'}
     peerDependencies:
       '@csstools/css-parser-algorithms': ^3.0.5
@@ -481,11 +481,11 @@ packages:
   '@kwsites/promise-deferred@1.1.1':
     resolution: {integrity: sha512-GaHYm+c0O9MjZRu0ongGBRbinu8gVAMd2UZjji6jVmqKtZluZnptXGWhz1E8j8D2HJ3f/yMxKAUC0b+57wncIw==}
 
-  '@nativescript/android@8.9.1':
-    resolution: {integrity: sha512-9xy7Vp77icneQCv0fRVwYfJhuhqFYY3/nPoB7OeG/I78WITPUm+2fNyBj0A6Uu4qJ5/rhwiNAWCaVX0IGBs0oQ==}
+  '@nativescript/android@8.9.2':
+    resolution: {integrity: sha512-ALLWvjroLTYQp/GYANcH4zbRdjZr0rFh0ZRQN/9visJY+oFPZmKsELKmkE2+5T7a5twVB/2fFNYBGsTHjh+GJw==}
 
-  '@nativescript/core@8.9.7':
-    resolution: {integrity: sha512-g9pHgq5nDAfGalf9PBL+DA6ZUG3Zvw+13UvShwB0zOW3XbJsYyGCsfO6FqxfDvZlxl9hOSNTuB14Tx9ak7rolQ==}
+  '@nativescript/core@8.9.9':
+    resolution: {integrity: sha512-xkwxkEuqQA9ajX3ThkimZ/sVl95gaB51f8cu/jUrEDVEy2vY5+J7EGXfpN2pl+jK2XQ9hB0/TmMTkY0ewxgODw==}
 
   '@nativescript/doctor@2.0.16-rc.0':
     resolution: {integrity: sha512-ZZ85tIH56vRyt9A4NpFeKGgCGX5B312HgdvUNNWoxzGI7DzpRfB2E/niu6pF7ejvpyFGXVLntisL0f/XX69E7g==}
@@ -493,8 +493,8 @@ packages:
   '@nativescript/hook@2.0.0':
     resolution: {integrity: sha512-v3Hj3Zpd69sQJfFpDNXonV0EjO1a2OL4l48wlo1Ycsqk4r7RY822d/irFTjt0LllRG0OcdEGgfG6wKb0YgPyHw==}
 
-  '@nativescript/ios@8.9.2':
-    resolution: {integrity: sha512-WO8M/brgVDmSxkrXTIpGFVqlEWxATVcsKJ7T7RLBoq4WEBfF35cwuamIK7v4jZNSmZayrgSu+PqZsN4STIbesg==}
+  '@nativescript/ios@8.9.4':
+    resolution: {integrity: sha512-24xPK+kbPdfZHMasZv4nMc2EzqmKiWJc5w3NUBJTcLgNLWbYblRAq1BOAIYpWR2X+nOJNiu+bXPyXjbhEWP/2w==}
 
   '@nativescript/theme@3.1.0':
     resolution: {integrity: sha512-LTo0k/1HbwuFl9vTNfeOFtHuXf/BEVKROeaLZJbHX8U6DoUc+VprF46v6E9EFALOOPgxsgAJFtnEdOFDa26Ogw==}
@@ -1884,8 +1884,8 @@ packages:
     resolution: {integrity: sha512-gYCwo7kh5S3IDyZPLZf6hSS0MnZT8QmJFqYvbqlDZSbwdZlY6QZWxJ4i/6UhITOJ4XzyI647Bm2MXKCLqnJ4nQ==}
     engines: {node: '>4.0'}
 
-  emoji-regex@10.4.0:
-    resolution: {integrity: sha512-EC+0oUMY1Rqm4O6LLrgjtYDvcVYTy7chDnM4Q7030tP4Kwj3u/pR6gP9ygnp2CJMK5Gq+9Q2oqmrFJAz01DXjw==}
+  emoji-regex@10.6.0:
+    resolution: {integrity: sha512-toUI84YS5YmxW219erniWD0CIVOo46xGKColeNQRgOzDorgBi1v4D71/OFzgD9GO2UGKIv1C3Sp8DAn0+j5w7A==}
 
   emoji-regex@8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
@@ -4583,16 +4583,16 @@ snapshots:
     dependencies:
       '@jridgewell/trace-mapping': 0.3.9
 
-  '@csstools/color-helpers@5.0.2': {}
+  '@csstools/color-helpers@5.1.0': {}
 
   '@csstools/css-calc@2.1.4(@csstools/css-parser-algorithms@3.0.5(@csstools/css-tokenizer@3.0.4))(@csstools/css-tokenizer@3.0.4)':
     dependencies:
       '@csstools/css-parser-algorithms': 3.0.5(@csstools/css-tokenizer@3.0.4)
       '@csstools/css-tokenizer': 3.0.4
 
-  '@csstools/css-color-parser@3.0.10(@csstools/css-parser-algorithms@3.0.5(@csstools/css-tokenizer@3.0.4))(@csstools/css-tokenizer@3.0.4)':
+  '@csstools/css-color-parser@3.1.0(@csstools/css-parser-algorithms@3.0.5(@csstools/css-tokenizer@3.0.4))(@csstools/css-tokenizer@3.0.4)':
     dependencies:
-      '@csstools/color-helpers': 5.0.2
+      '@csstools/color-helpers': 5.1.0
       '@csstools/css-calc': 2.1.4(@csstools/css-parser-algorithms@3.0.5(@csstools/css-tokenizer@3.0.4))(@csstools/css-tokenizer@3.0.4)
       '@csstools/css-parser-algorithms': 3.0.5(@csstools/css-tokenizer@3.0.4)
       '@csstools/css-tokenizer': 3.0.4
@@ -5005,19 +5005,19 @@ snapshots:
 
   '@kwsites/promise-deferred@1.1.1': {}
 
-  '@nativescript/android@8.9.1': {}
+  '@nativescript/android@8.9.2': {}
 
-  '@nativescript/core@8.9.7':
+  '@nativescript/core@8.9.9':
     dependencies:
       '@csstools/css-calc': 2.1.4(@csstools/css-parser-algorithms@3.0.5(@csstools/css-tokenizer@3.0.4))(@csstools/css-tokenizer@3.0.4)
-      '@csstools/css-color-parser': 3.0.10(@csstools/css-parser-algorithms@3.0.5(@csstools/css-tokenizer@3.0.4))(@csstools/css-tokenizer@3.0.4)
+      '@csstools/css-color-parser': 3.1.0(@csstools/css-parser-algorithms@3.0.5(@csstools/css-tokenizer@3.0.4))(@csstools/css-tokenizer@3.0.4)
       '@csstools/css-parser-algorithms': 3.0.5(@csstools/css-tokenizer@3.0.4)
       '@csstools/css-tokenizer': 3.0.4
       '@nativescript/hook': 2.0.0
       acorn: 8.15.0
       css-tree: 1.1.3
       css-what: 6.2.2
-      emoji-regex: 10.4.0
+      emoji-regex: 10.6.0
       source-map: 0.6.1
       tslib: 2.8.1
 
@@ -5035,7 +5035,7 @@ snapshots:
       glob: 7.2.3
       mkdirp: 1.0.4
 
-  '@nativescript/ios@8.9.2': {}
+  '@nativescript/ios@8.9.4': {}
 
   '@nativescript/theme@3.1.0': {}
 
@@ -6552,7 +6552,7 @@ snapshots:
 
   email-validator@2.0.4: {}
 
-  emoji-regex@10.4.0: {}
+  emoji-regex@10.6.0: {}
 
   emoji-regex@8.0.0: {}
 
