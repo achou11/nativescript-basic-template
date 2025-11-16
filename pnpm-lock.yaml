@@ -28,8 +28,8 @@ importers:
         specifier: 8.9.2
         version: 8.9.2
       '@nativescript/ios':
-        specifier: 8.9.4
-        version: 8.9.4
+        specifier: 8.9.5
+        version: 8.9.5
       '@nativescript/types':
         specifier: 8.9.1
         version: 8.9.1
@@ -500,8 +500,8 @@ packages:
   '@nativescript/hook@2.0.0':
     resolution: {integrity: sha512-v3Hj3Zpd69sQJfFpDNXonV0EjO1a2OL4l48wlo1Ycsqk4r7RY822d/irFTjt0LllRG0OcdEGgfG6wKb0YgPyHw==}
 
-  '@nativescript/ios@8.9.4':
-    resolution: {integrity: sha512-24xPK+kbPdfZHMasZv4nMc2EzqmKiWJc5w3NUBJTcLgNLWbYblRAq1BOAIYpWR2X+nOJNiu+bXPyXjbhEWP/2w==}
+  '@nativescript/ios@8.9.5':
+    resolution: {integrity: sha512-emh3Gz6pBf/5zsdLgx7djcMSsDn/bxBcCp7h3KTmkSQH2ehmGKRZdwb1VjtUZbOMpQWiTN7OreRn9xV5vhOoGQ==}
 
   '@nativescript/theme@3.1.0':
     resolution: {integrity: sha512-LTo0k/1HbwuFl9vTNfeOFtHuXf/BEVKROeaLZJbHX8U6DoUc+VprF46v6E9EFALOOPgxsgAJFtnEdOFDa26Ogw==}
@@ -5050,7 +5050,7 @@ snapshots:
       glob: 7.2.3
       mkdirp: 1.0.4
 
-  '@nativescript/ios@8.9.4': {}
+  '@nativescript/ios@8.9.5': {}
 
   '@nativescript/theme@3.1.0': {}
 
