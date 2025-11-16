@@ -1,4 +1,4 @@
-import { type NativeScriptConfig } from '@nativescript/core'
+import type { NativeScriptConfig } from '@nativescript/core'
 
 export default {
 	id: 'com.andrewchou.NativeScriptBasicTemplate',
